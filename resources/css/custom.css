@@ -1,0 +1,46 @@
+@import 'alerts.css';
+@import 'advertising.css';
+@import 'buttons.css';
+@import 'footer.css';
+@import 'forms.css';
+@import 'labels.css';
+@import 'legals.css';
+@import 'modal.css';
+@import 'pagination.css';
+@import 'replies.css';
+@import 'tables.css';
+@import 'tags.css';
+@import 'threads.css';
+
+/*a:hover {*/
+/*    @apply underline;*/
+/*}*/
+
+pre .hljs {
+    @apply text-sm rounded p-4 border-2;
+}
+
+.forum-content code {
+    background: #f8f8f8;
+    color: #333;
+}
+
+svg .primary {
+    @apply text-gray-800 fill-current;
+}
+
+svg .secondary {
+    @apply text-green-primary fill-current;
+}
+
+[x-cloak] {
+    display: none;
+}
+
+nav.dashboard-nav a.active {
+    @apply border-green-primary text-green-primary;
+}
+
+a > span > em {
+    @apply bg-green-light;
+}

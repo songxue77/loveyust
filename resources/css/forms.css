@@ -1,0 +1,60 @@
+.form-group {
+    @apply flex flex-col mb-4;
+}
+
+label {
+    @apply mb-1 text-gray-600 block uppercase text-sm;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+    @apply rounded border-2 p-3 w-full;
+}
+
+input.nav-search {
+    @apply pl-10 pr-3 py-2;
+}
+
+input[type=checkbox] {
+    @apply mr-1;
+}
+
+.help-block {
+    @apply text-red-primary text-sm;
+}
+
+/** Markdown editor **/
+.form-group .editor-toolbar {
+    @apply border-2 border-b-0 rounded rounded-b-none border-gray-300;
+}
+
+.form-group .CodeMirror {
+    @apply border-2 rounded rounded-t-none border-gray-300;
+}
+
+/** Choices.js **/
+.choices__input.choices__input--cloned {
+    @apply hidden;
+}
+
+.choices__item {
+    @apply text-xs uppercase bg-gray-200 text-gray-700 cursor-pointer rounded px-2 py-1 !important;
+}
+
+.choices__item.choices__item--choice.choices__item--selectable {
+    @apply bg-white rounded-none text-gray-700 p-2 !important;
+}
+
+.choices__item.choices__item--choice.choices__item--selectable:hover {
+    @apply bg-gray-200 !important;
+}
+
+.choices__item.choices__item--selectable {
+    @apply bg-green-primary border-green-primary text-white !important;
+}
+
+.choices__item.is-highlighted {
+    @apply bg-green-dark border-green-dark text-white !important;
+}
