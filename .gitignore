@@ -7,5 +7,6 @@
 /public/mix-manifest.json
 /storage/*.key
 /vendor
+/.idea
 .env
 .phpunit.result.cache
