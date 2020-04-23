@@ -1,5 +1,7 @@
 <?php
 
+Route::get('/phpinfo', 'InfoController@phpinfo')->name('phpinfo');
+
 Route::feeds();
 
 // Home
