@@ -1,6 +1,7 @@
 <?php
 
-Route::get('/phpinfo', 'InfoController@phpinfo')->name('phpinfo');
+Route::get('phpinfo', 'InfoController@phpinfo')->name('phpinfo');
+Route::post('photos', 'PhotosController@store');
 
 Route::feeds();
 
