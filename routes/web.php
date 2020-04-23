@@ -1,5 +1,7 @@
 <?php
 
+Route::post('photos', 'PhotosController@store');
+
 Route::feeds();
 
 // Home
