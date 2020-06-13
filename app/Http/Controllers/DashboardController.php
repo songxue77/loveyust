@@ -15,4 +15,9 @@ class DashboardController extends Controller
     {
         return view('users.dashboard');
     }
+
+    public function detail()
+    {
+
+    }
 }
